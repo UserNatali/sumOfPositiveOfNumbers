@@ -6,3 +6,4 @@ while my_list[i] > 0:
     i += 1
 print(suma)
 
+
