@@ -1,6 +1,10 @@
 class Person:
     def print_info(self):
-        print(f"Name:{self.name}, Surname:{self.surname}, Place_of_birth:{self.place_of_birth}")
+        string1 = f"Name:{self.name}, " \
+                  f"Surname:{self.surname}," \
+                  f" Place_of_birth:{self.place_of_birth}, " \
+                  f"Year_of_birth:{self.year_of_birth} "
+        print(string1)
 
     def get_age(self):
         from datetime import date
