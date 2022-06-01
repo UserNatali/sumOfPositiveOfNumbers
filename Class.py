@@ -15,7 +15,7 @@ class Person:
 
 
 human1 = Person()
-human1.name = "Elon"
+human1.name = "Elona"
 human1.surname  = "Mask"
 human1.place_of_birth = "ЮАР"
 human1.year_of_birth = 1970
