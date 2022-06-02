@@ -1,4 +1,5 @@
 class Person:
+    numerosity = 123
     def __init__(self, name, surname, place_of_birth, year_of_birth):
         self.name = name
         self.surname = surname
@@ -21,5 +22,8 @@ human1.print_info(1)
 human2.print_info(1)
 human3.print_info(1)
 print(human1.name)
+human1.numerosity  = 789
+
+print(human2.numerosity)
 
 
